@@ -1,0 +1,92 @@
+.CheckoutPageContainer {
+  margin: 3% auto;
+  text-align: center;
+  min-height: 50vh;
+  width: 70%;
+}
+.CheckoutPageContainer .CheckoutPageTitle {
+  font-weight: 900;
+}
+.choosenIemsContainer .checkoutBtn {
+  border: none;
+
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: var(--white);
+  font-weight: 800;
+}
+.choosenIemsContainer .checkoutBtn a {
+  text-decoration: none;
+  color: unset;
+}
+.choosenIemsContainer .checkoutBtn:hover {
+  background-color: var(--skyBlue);
+}
+
+.form-name {
+  padding: 0.6em;
+  margin: 0.6em;
+  display: flex;
+}
+
+.form-name label {
+  flex-basis: 25%;
+  text-align: left;
+}
+.form-name input {
+  width: 50%;
+  border-radius: 5px;
+  padding: 6px;
+  border: 1px solid #ddd;
+}
+form.form-checkout {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-component-Btn {
+  display: flex;
+  padding: 6px;
+  border-radius: 5px;
+  border-style: none;
+  align-self: center;
+  justify-self: end;
+  flex-direction: row;
+  background-color: var(--pink1);
+  align-self: center;
+  margin-bottom: 1em;
+}
+
+@media (max-width: 670px) {
+  .form-name {
+    flex-direction: column;
+  }
+  .form-name input {
+    width: 90%;
+  }
+}
+@media (max-width: 470px) {
+  input#fname {
+    width: 100%;
+  }
+  input#email {
+    width: 100%;
+  }
+  input#lname {
+    width: 100%;
+  }
+  input#phoneNumber {
+    width: 100%;
+  }
+  input#address {
+    width: 100%;
+  }
+  .CheckoutPageContainer {
+    width: 80%;
+  }
+}
+@media (max-width: 320px) {
+  .CheckoutPageContainer {
+    width: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+.heroImageContainer {
+  height: 80vh;
+  padding-top: 4em;
+  width: 100%;
+  background-size: cover;
+}
+@media (max-width: 400px) {
+  .heroImageContainer {
+    height: 60vh;
+    padding-top: 3em;
+    padding-right: 3em;
+  }
+}

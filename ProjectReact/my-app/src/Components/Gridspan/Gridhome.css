@@ -1,0 +1,79 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"); */
+
+.grid-section {
+  background: rgb(206, 169, 169);
+  color: #fff;
+}
+
+.bg1 h2 {
+  font-size: 45px;
+  font-weight: 300;
+  margin: 10px;
+}
+.bg2 h2 {
+  font-size: 45px;
+  font-weight: 300;
+  margin: 10px;
+}
+
+.bg1 p {
+  font-size: 20px;
+}
+.bg2 p {
+  font-size: 20px;
+}
+
+.container-girdarea {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.7em;
+}
+
+.container-girdarea > div {
+  cursor: pointer;
+  height: 210px;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.5s ease-in;
+}
+
+.container-girdarea > div:hover {
+  opacity: 0.7;
+  transform: scale(0.98);
+}
+
+.container-girdarea > div:nth-of-type(1) {
+  grid-column: 1 / 3;
+}
+
+.container-girdarea > div:nth-of-type(6) {
+  grid-column: 3 / span 2;
+  /* the same as    grid-column: 3 / 5; */
+}
+
+.container-girdarea > div:nth-of-type(9) {
+  grid-column: 3 / 5;
+}
+
+.container-girdarea > div:nth-of-type(10) {
+  grid-column: 1 / 3;
+}
+
+.bg1 {
+  background-image: url("https://www.marketingtochina.com/wp-content/uploads/2018/11/cirucs-circus-amenities-salon-flipped.jpg");
+}
+
+.bg2 {
+  background-image: url("https://mknailsspaoakville.com/uploads/fnail0utxt26q/logo/2019/10/16/slide20.png");
+  /* color: #333; */
+}
+@media (max-width: 483px) {
+  .grid-section {
+    display: none;
+  }
+}

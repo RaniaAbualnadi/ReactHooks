@@ -1,0 +1,155 @@
+.navbarMenuIcon {
+  display: none;
+}
+
+.navbarMainSection {
+  font-size: 1.2vw;
+  height: 60px;
+  background-color: var(--pink2);
+  width: 100%;
+
+  display: flex;
+
+  backdrop-filter: blur(4px);
+}
+.navbarList {
+  list-style: none;
+  width: 50%;
+  align-items: center;
+}
+.navbarList li {
+  justify-content: space-around;
+}
+.navbarMainSection ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  /* float: right; */
+  /* padding-right: 8rem; */
+  padding-top: 0.7em;
+  gap: 1em;
+}
+
+.navbarMainSection ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbarMainSection a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.logo {
+  padding-top: 5px;
+  width: 100px;
+}
+.toggleNavbar {
+  display: none;
+}
+.logoImg {
+  width: 50%;
+}
+
+.container-one {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 0 1em;
+  justify-content: space-between;
+  /* position: relative; */
+}
+.navbar-collapse {
+  padding: 0em 2em;
+}
+
+button.loginButton {
+  border-style: none;
+  background-color: transparent;
+  font-size: 1em;
+  color: white;
+}
+button.logoutButton {
+  border-style: none;
+  background-color: transparent;
+  font-size: 1em;
+  color: white;
+  padding-right: 2em;
+}
+.nav-icon {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  display: none;
+}
+.fa-bars:before {
+  font-size: large;
+}
+.fa-times:before {
+  font-size: medium;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-list ul,
+  .shoppingIcon,
+  .login_logout {
+    background-color: #9c7979;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    z-index: 200 !important;
+    position: absolute;
+    width: auto;
+    right: 0px;
+    left: 0px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 1em 0;
+    position: absolute;
+    top: 60px;
+    font-size: 1rem;
+  }
+
+  button.logoutButton {
+    border-style: none;
+    background-color: transparent;
+    font-size: 1em;
+    color: white;
+    padding-right: 0px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .nav-list ul,
+  .shoppingIcon,
+  .login_logout {
+    background-color: var(--pink2);
+    display: flex;
+    flex-direction: column;
+    color: black;
+    z-index: 20;
+  }
+  .active {
+    display: none;
+  }
+
+  .navbarContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+  }
+  span {
+    text-align: center;
+  }
+  .nav-icon {
+    display: block;
+  }
+  .login_logout button {
+    margin-bottom: 1em;
+  }
+}

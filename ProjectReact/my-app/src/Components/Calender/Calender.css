@@ -1,0 +1,136 @@
+.render-calender-form {
+  width: 75%;
+}
+
+form.calender-form {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+}
+
+.time-slots-input {
+  display: block;
+  width: 100%;
+  border: 0;
+  background-color: #e3f0ff;
+  padding: 0.7em;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  line-height: 1;
+  transition: box-shadow 0.22s ease-out;
+  height: auto;
+  margin: 1.3em 0;
+  border: 1px solid #afcbeb;
+}
+
+.label-container {
+  width: 90%;
+  font-weight: 600;
+}
+.LogInToqa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3f0ff;
+  padding: 70px 0;
+}
+
+.calender-titleimg {
+  width: 32em;
+  height: 20em;
+}
+
+.calender-title {
+  margin-bottom: 1rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.calender-title h3 {
+  align-items: center;
+  margin-left: 3em;
+  font-family: "Proxima Nova", proxima-nova, sans-serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #103760;
+  line-height: 1;
+}
+.calender-titlep {
+  margin-left: 4em;
+  font-size: 1.5rem;
+  color: #434f58 !important;
+  max-width: 20em;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.render-calender-form {
+  /* width: 35%; */
+  background-color: #ffffff;
+  /* height: 37em; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+  justify-content: center;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 2%;
+  margin-left: 2em;
+  padding: 2em 0;
+}
+
+.calender-form {
+  /* border: 1px solid red; */
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+.calender-form input {
+  display: block;
+  width: 100%;
+  border: 0;
+  background-color: #e3f0ff;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  line-height: 1;
+  transition: box-shadow 0.22s ease-out;
+  height: 3rem;
+  margin: 1.3em 0;
+  border: 1px solid #afcbeb;
+}
+
+.submit-calender {
+  margin: 8px 0;
+  width: 100%;
+  opacity: 0.9;
+  font-family: "Proxima Nova", sans-serif;
+  background-color: var(--pink1);
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 0.75rem 2rem 0.625rem;
+  font-weight: 400;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .calender-title {
+    display: none;
+  }
+
+  .render-calender-form {
+    width: 100%;
+    margin: 0;
+  }
+  .CalenderOurCourse {
+    width: 100%;
+  }
+}

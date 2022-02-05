@@ -1,0 +1,16 @@
+.shopping-cart-container {
+  position: relative;
+}
+
+.shopping-counter {
+  position: absolute;
+  top: 7px;
+  right: -8px;
+  background-color: #942b2791;
+  border-radius: 50%;
+  padding: 3px;
+  font-size: 0.6em;
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+}
